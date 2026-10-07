@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+
+  <form action="#" method="post">
+
+
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+    <br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+    <br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+   <br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="1" max="100">
+    <br><br>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy">
+    <br><br>
+
+      Gender:
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+    <br><br>
+
+        <label>City: </label>
+        <select name="city" id="city">
+            <option value="dhaka">Dhaka</option>
+            <option value="chittagong">Chittagong</option>
+            <option value="khulna">Khulna</option>
+            <option value="rajshahi">Rajshahi</option>
+        </select>
+    
+
+      <br><br>
+      Hobbies:
+      <input type="checkbox" id="reading" name="hobbies" value="reading">
+      <label for="reading">Reading</label>
+
+      <input type="checkbox" id="cricket" name="hobbies" value="cricket">
+      <label for="cricket">Cricket</label>
+
+      <input type="checkbox" id="music" name="hobbies" value="music">
+      <label for="music">Music</label>
+
+      <br><br>
+      <label for="about">About Yourself:</label><br>
+      <textarea id="about" name="about" rows="5" cols="40" placeholder="Write a few lines about yourself"></textarea>
+
+       <br><br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </fieldset>
+    
+</body>
+</html>
